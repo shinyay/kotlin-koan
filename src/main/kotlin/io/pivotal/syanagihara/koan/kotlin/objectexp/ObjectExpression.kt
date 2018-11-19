@@ -16,3 +16,9 @@ fun getListLambda(): List<Int> {
     Collections.sort(arrayList) { x, y -> y - x }
     return arrayList
 }
+
+fun getListLambdaRefined(): List<Int> {
+    val arrayList = arrayListOf(1, 5, 2)
+    arrayList.sortWith(Comparator { x, y -> y - x })
+    return arrayList
+}

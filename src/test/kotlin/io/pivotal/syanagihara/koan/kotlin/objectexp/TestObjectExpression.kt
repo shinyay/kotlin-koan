@@ -14,4 +14,9 @@ class TestObjectExpression {
     fun testSortLambda() {
         assertEquals(listOf(5, 2, 1), getListLambda())
     }
+
+    @Test
+    fun testSortLambdaRefined() {
+        assertEquals(listOf(5, 2, 1), getListLambdaRefined())
+    }
 }
