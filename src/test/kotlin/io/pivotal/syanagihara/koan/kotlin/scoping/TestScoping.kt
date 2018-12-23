@@ -24,4 +24,9 @@ class TestScoping {
     fun apply() {
         Assert.assertEquals("Person(name=APPLY, age=21)", sampleApply())
     }
+
+    @Test
+    fun also() {
+        Assert.assertEquals("Person(name=ALSO, age=21, hobby=Kotlin)", sampleAlso().toStringAddon())
+    }
 }
