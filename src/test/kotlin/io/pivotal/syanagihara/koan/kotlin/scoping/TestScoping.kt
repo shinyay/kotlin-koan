@@ -19,4 +19,9 @@ class TestScoping {
     fun letTest() {
         Assert.assertEquals("Kotlin", sampleLet())
     }
+
+    @Test
+    fun apply() {
+        Assert.assertEquals("Person(name=APPLY, age=21)", sampleApply())
+    }
 }
