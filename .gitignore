@@ -4,6 +4,7 @@
 gradlew 
 gradlew.bat 
 gradle/* 
+out/
  
 ### STS ### 
 .apt_generated 
