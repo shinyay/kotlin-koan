@@ -20,7 +20,7 @@ data class Person(
     fun displayHobby() = this.hobby
 
     fun toStringAddon(): String {
-        return "Person(name=${name}, age=${age}, hobby=${hobby})"
+        return "Person(name=$name, age=$age, hobby=$hobby)"
     }
 }
 
